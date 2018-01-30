@@ -1,0 +1,10 @@
+{
+ "accountID":0,
+ "consumptionFrom":0,
+ "consumptionTo":0,
+ "g8client":"cl",
+ "maxCPUCapacity":-1,
+ "maxDiskCapacity":-1,
+ "maxMemoryCapacity":-1,
+ "maxNumPublicIP":-1
+}
