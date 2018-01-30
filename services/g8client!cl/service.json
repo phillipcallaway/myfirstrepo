@@ -4,7 +4,7 @@
    "actionKey":"de5ef6aac5e9fdce4e1988944ef0422a",
    "errorNr":0,
    "isJob":true,
-   "lastRun":1517329941,
+   "lastRun":1517330304,
    "log":true,
    "longjob":false,
    "name":"input",
@@ -28,7 +28,7 @@
    "actionKey":"be6b02cf9310284fd26e03a7888e40b6",
    "errorNr":0,
    "isJob":true,
-   "lastRun":1517329941,
+   "lastRun":1517330304,
    "log":true,
    "longjob":false,
    "name":"init",
@@ -253,7 +253,7 @@
    "timeout":0
   }
  ],
- "actorKey":"0884aacb53ce91c8b25fc3dad04caa65",
+ "actorKey":"1f990e78fb693076b1f8b9bb94fcb5cf",
  "actorName":"g8client",
  "dataSchema":"\n@0x822d58b0388d9011;\nstruct Schema {\n\turl @0 :Text;\n\tlogin @1 :Text;\n\tpassword @2 :Text;\n\tjwt @3 :Text;\n\taccount @4 :Text;\n\tport @5 :Int64 = 443;\n\n}\n",
  "eventFilters":[
@@ -263,7 +263,7 @@
   "path":"services\/g8client!cl",
   "url":"git@github.com:phillipcallaway\/myfirstrepo.git"
  },
- "key":"4ede1b8a7e74c886b9fbffa3a473a005",
+ "key":"cc0fc8f840ae5ce082172d9e9514ebef",
  "name":"cl",
  "parent":{
 
