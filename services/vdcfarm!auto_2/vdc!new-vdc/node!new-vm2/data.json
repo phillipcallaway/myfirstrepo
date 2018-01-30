@@ -1,0 +1,11 @@
+{
+ "bootdiskSize":20,
+ "machineId":0,
+ "memory":1,
+ "osImage":"Ubuntu 16.04 x64",
+ "sizeID":1,
+ "sshAuthorized":false,
+ "sshPort":0,
+ "stackID":-1,
+ "vdc":"new-vdc"
+}
