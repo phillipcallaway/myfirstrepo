@@ -9,7 +9,7 @@
    "longjob":false,
    "name":"install",
    "period":0,
-   "state":"new",
+   "state":"scheduled",
    "timeout":0
   },
   {

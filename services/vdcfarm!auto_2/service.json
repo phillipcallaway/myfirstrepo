@@ -33,7 +33,7 @@
    "longjob":false,
    "name":"install",
    "period":0,
-   "state":"new",
+   "state":"scheduled",
    "timeout":0
   },
   {
@@ -243,6 +243,13 @@
  ],
  "actorKey":"17753c63417c5e89c0dc5fcc166485b6",
  "actorName":"vdcfarm",
+ "consumers":[
+  {
+   "actorName":"vdc",
+   "key":"b62d8764618ed443d6acbd4ce1978f45",
+   "serviceName":"new-vdc"
+  }
+ ],
  "dataSchema":"\n@0xc9068ab71f0c803d;\nstruct Schema {\n\tdescription @0 :Text;\n\n}\n",
  "eventFilters":[
 

@@ -33,7 +33,7 @@
    "longjob":false,
    "name":"install",
    "period":0,
-   "state":"new",
+   "state":"scheduled",
    "timeout":0
   },
   {
@@ -243,6 +243,18 @@
  ],
  "actorKey":"cbfedcba5f3c870c2c92397a6681e1a3",
  "actorName":"sshkey",
+ "consumers":[
+  {
+   "actorName":"node.ovc",
+   "key":"09d9f62c4927c3f24c43a9c1f4851115",
+   "serviceName":"new-vm"
+  },
+  {
+   "actorName":"os.ssh.ubuntu",
+   "key":"6e48f819f1c9cf6176aef72bdb8d5d26",
+   "serviceName":"new-vm"
+  }
+ ],
  "dataSchema":"@0xaf4e2a542f11b714;\nstruct Schema {\n\tkeyPath @0 :Text;\n\tkeyName @1 :Text;\n\tkeyPassphrase @2 :Text;\n\tkeyPriv @3 :Text;\n\tkeyPub @4 :Text;\n}\n",
  "eventFilters":[
 

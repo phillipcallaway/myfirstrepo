@@ -57,7 +57,7 @@
    "longjob":false,
    "name":"install",
    "period":0,
-   "state":"new",
+   "state":"scheduled",
    "timeout":0
   },
   {
@@ -315,6 +315,13 @@
  ],
  "actorKey":"d7339a115ec26970d53321bfb47f8dc4",
  "actorName":"vdc",
+ "consumers":[
+  {
+   "actorName":"node.ovc",
+   "key":"09d9f62c4927c3f24c43a9c1f4851115",
+   "serviceName":"new-vm"
+  }
+ ],
  "dataSchema":"\n@0xadb4de77fe21b184;\nstruct Schema {\n\tdescription @0 :Text;\n\tvdcfarm @1 :Text;\n\tg8client @2 :Text;\n\taccount @3 :Text;\n\tlocation @4 :Text;\n\tuservdc @5 :List(UserVdcEntry);\n\tallowedVMSizes @6 :List(Int64);\n\tcloudspaceID @7 :Int64 = 0;\n\tmaxMemoryCapacity @8 :Int64 = -1;\n\tmaxCPUCapacity @9 :Int64 = -1;\n\tmaxDiskCapacity @10 :Int64 = -1;\n\tmaxNumPublicIP @11 :Int64 = -1;\n\texternalNetworkID @12 :Int64 = -1;\n\tmaxNetworkPeerTransfer @13 :Int64 = -1;\n\tdisabled @14 :Bool = false;\n\tscript @15 :Text;\n\tipPublic @16 :Text;\n\n\tstruct UserVdcEntry {\n\t\tname @0 :Text;\n\t\taccesstype @1 :Text;\n\t}\n\n}\n",
  "eventFilters":[
 
