@@ -1,5 +1,5 @@
 {
  "node":"new-vm",
- "sshPort":0,
+ "sshPort":2200,
  "sshkey":""
 }

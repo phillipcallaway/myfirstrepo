@@ -1,9 +1,10 @@
 {
  "account":"Account_for_42ICT",
- "cloudspaceID":0,
+ "cloudspaceID":197,
  "disabled":false,
  "externalNetworkID":-1,
  "g8client":"cl",
+ "ipPublic":"195.134.212.52",
  "location":"be-gen-1",
  "maxCPUCapacity":-1,
  "maxDiskCapacity":-1,
